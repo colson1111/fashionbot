@@ -2,7 +2,6 @@ FROM python:3.11
 
 COPY app.py app.py
 COPY helper_functions.py helper_functions.py
-COPY .env .env
 RUN mkdir -p documents
 COPY documents/docu-20220628-the-future-of-fashion.pdf documents/docu-20220628-the-future-of-fashion.pdf
 COPY documents/Depop_2024_Trend_Report.pdf documents/Depop_2024_Trend_Report.pdf
